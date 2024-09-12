@@ -1,17 +1,16 @@
 package com.driver;
 
 public class RWOnly {
-    // Private member variable
-    private int name;
+    // Task 2: Private member variable
+    private String name;  // name is private to restrict direct access
 
-    // Setter method for name
-    public void setName(int name) {
-        this.name = name;
+    // Task 5: Getter and Setter for encapsulation
+    public String getName() {
+        return name;
     }
 
-    // Getter method for name
-    public int getName() {
-        return name;
+    public void setName(String name) {
+        this.name = name;
     }
 }
 
